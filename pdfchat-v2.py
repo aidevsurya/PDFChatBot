@@ -20,7 +20,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ---------------- CONFIG ----------------
 EMBED_MODEL = "all-MiniLM-L6-v2"
-LLM_MODEL = "qwen2.5-coder:0.5b"     # better reasoning than llama3
+LLM_MODEL = "falcon:7b"     # better reasoning than llama3
 TOP_K = 3
 MAX_CONTEXT_CHARS = 1500
 OLLAMA_URL = "http://localhost:11434/api/generate"
