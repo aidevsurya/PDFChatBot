@@ -5,9 +5,7 @@ First Install the dependencies.
   curl -fsSL https://ollama.com/install.sh | sh
   sudo systemctl enable ollama.service
   sudo systemctl start ollama.service
-  
   ollama pull falcon:7b
-  
   sudo apt install tesseract-ocr-eng tesseract-ocr-hin
   pip install -r requirements.txt
 </code>
