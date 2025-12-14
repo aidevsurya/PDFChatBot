@@ -1,0 +1,9 @@
+pytesseract
+pillow
+pymupdf 
+faiss-cpu 
+sentence-transformers 
+streamlit 
+requests
+numpy
+langchain-text-splitters
