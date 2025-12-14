@@ -1,9 +1,10 @@
+streamlit
+pymupdf
+faiss-cpu
+numpy
+sentence-transformers
+langchain-text-splitters
 pytesseract
 pillow
-pymupdf 
-faiss-cpu 
-sentence-transformers 
-streamlit 
-requests
-numpy
-langchain-text-splitters
+llama-cpp-python
+huggingface-hub
