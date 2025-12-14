@@ -16,7 +16,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ---------------- CONFIG ----------------
 EMBED_MODEL = "all-MiniLM-L6-v2"
-LLM_MODEL = "qwen2.5-coder:0.5b"     # try "mistral" for faster response
+LLM_MODEL = "falcon:7b"     # try "mistral" for faster response
 TOP_K = 2
 MAX_CONTEXT_CHARS = 1500
 OLLAMA_URL = "http://localhost:11434/api/generate"
